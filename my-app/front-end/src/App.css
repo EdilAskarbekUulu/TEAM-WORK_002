@@ -1,0 +1,83 @@
+.header{
+  max-width: 1920px;
+  margin: 0 auto;
+  background: linear-gradient(89.62deg,#852f4a 5.23%, #0500FA 20.09%, #852f4a 92.23%);
+
+}
+.wraper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0;
+  margin: 0;
+}
+.navMenu{
+  display: flex;
+  gap: 5%;
+  white-space: nowrap;
+}
+.navMenu a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 500;  
+}
+.regis button{
+  width: 128px;
+  height: 44px;
+  top: 20px;
+  border-radius: 8px;
+  border: none;
+  opacity: 0px;
+  background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%); 
+}
+.regis button a{
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.logo h1{
+  color:#E01E5A ;
+  font-size: 20px;
+}
+.regi{
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(12, 5, 63);
+  box-shadow: 0px 20px 40px 0px rgba(205, 28, 104, 0.08);
+
+}
+.regiWrap{
+  width: 100%;
+  display: grid;
+  place-items: center;
+  color: rgba(255, 255, 255, 1);
+}
+.fromReg{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 90%;
+  place-items: center;
+}
+.inputRegi input{
+  background-color: rgb(100, 101, 173);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  height: 30px;
+  outline: none;
+}
+.fromReg button{
+  margin-top: 60px;
+  width: 128px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+}
